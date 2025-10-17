@@ -31,6 +31,6 @@ An automated system that receives application briefs, generates code using LLMs,
 
 - `GET /` - Health check
 - `POST /api/deploy` - Deploy new application
-- `POST /api/update` - Update existing application (Round 2)
+--> Both Round 1 and Round 2 requests are handled by /api/deploy
 
 Check the repository for full documentation and usage examples.
